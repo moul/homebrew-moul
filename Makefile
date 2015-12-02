@@ -5,6 +5,7 @@ update:
 	wget -N https://raw.githubusercontent.com/moul/anonuuid/master/contrib/homebrew/anonuuid.rb
 	wget -N https://raw.githubusercontent.com/moul/gotty-client/master/contrib/homebrew/gotty-client.rb
 	wget -N https://raw.githubusercontent.com/moul/sapin/master/contrib/homebrew/sapin.rb
+	wget -N https://raw.githubusercontent.com/moul/converter/master/contrib/homebrew/converter.rb
 
 
 .PHONY: test
