@@ -6,6 +6,7 @@ update:
 	wget -N https://raw.githubusercontent.com/moul/gotty-client/master/contrib/homebrew/gotty-client.rb
 	wget -N https://raw.githubusercontent.com/moul/sapin/master/contrib/homebrew/sapin.rb
 	wget -N https://raw.githubusercontent.com/moul/converter/master/contrib/homebrew/converter.rb
+	wget -N https://raw.githubusercontent.com/moul/slow-stream/master/contrib/homebrew/slow-stream.rb
 
 
 .PHONY: test
