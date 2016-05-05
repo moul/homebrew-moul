@@ -7,6 +7,7 @@ update:
 	wget -N https://raw.githubusercontent.com/moul/sapin/master/contrib/homebrew/sapin.rb
 	wget -N https://raw.githubusercontent.com/moul/converter/master/contrib/homebrew/converter.rb
 	wget -N https://raw.githubusercontent.com/moul/slow-stream/master/contrib/homebrew/slow-stream.rb
+	wget -N https://raw.githubusercontent.com/moul/ptar/master/contrib/homebrew/ptar.rb
 
 
 .PHONY: test
