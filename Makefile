@@ -10,7 +10,7 @@ update:
 	wget -N https://raw.githubusercontent.com/moul/sapin/master/contrib/homebrew/sapin.rb
 	wget -N https://raw.githubusercontent.com/moul/slow-stream/master/contrib/homebrew/slow-stream.rb
 	wget -N https://raw.githubusercontent.com/moul/ssh2docker/master/contrib/homebrew/ssh2docker.rb
-
+	wget -N https://raw.githubusercontent.com/JoeNyland/homebrew-docker/master/Formula/docker-diff.rb
 
 .PHONY: test
 test:
