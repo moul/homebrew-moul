@@ -6,6 +6,10 @@ class DockerDiff < Formula
   head "https://github.com/moul/docker-diff.git"
   def install
     bin.install "docker-diff"
+    system "cp", "docker-diff-completion", "docker-diff-completion.bash"
+    system "cp", "docker-diff-completion", "docker-diff-completion.zsh"
+    bash_completion.install "#{buildpath}/docker-diff-completion.bash"
+    zsh_completion.install "#{buildpath}/docker-diff-completion.zsh"
   end
   test do
     system "test", "-f", "#{bin}/docker-diff"
