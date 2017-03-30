@@ -11,6 +11,7 @@ update:
 	wget -N https://raw.githubusercontent.com/moul/slow-stream/master/contrib/homebrew/slow-stream.rb
 	wget -N https://raw.githubusercontent.com/moul/ssh2docker/master/contrib/homebrew/ssh2docker.rb
 	wget -N https://raw.githubusercontent.com/moul/printsh/master/homebrew/printsh.rb
+	wget -N https://raw.githubusercontent.com/moul/dockerpatch/master/homebrew/dockerpatch.rb
 	#wget -N https://raw.githubusercontent.com/JoeNyland/homebrew-docker/master/Formula/docker-diff.rb
 
 .PHONY: test
