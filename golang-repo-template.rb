@@ -2,9 +2,15 @@
 class GolangRepoTemplate < Formula
   desc "golang-repo-template"
   homepage "https://manfred.life/"
-  url "https://github.com/moul/golang-repo-template/releases/download/v1.0.0/golang-repo-template_1.0.0_darwin_amd64.tar.gz"
-  version "1.0.0"
-  sha256 "63a135bcb63f6fa8e60d3f7858cbc18f926648658a47539ff79455586c9568ac"
+  version "1.1.0"
+
+  if OS.mac?
+    url "https://github.com/moul/golang-repo-template/releases/download/v1.1.0/golang-repo-template_1.1.0_darwin_amd64.tar.gz"
+    sha256 "507b55b94fc0a42a1e9bb972ca6a5b2ec3df73f7b640f1b62b759376da540992"
+  elsif OS.linux?
+    url "https://github.com/moul/golang-repo-template/releases/download/v1.1.0/golang-repo-template_1.1.0_linux_amd64.tar.gz"
+    sha256 "c87e176cbabf97550338bf2962441b4064c2c6c441907fb8113f63a5b8a46ac3"
+  end
 
   def install
     bin.install "golang-repo-template"
