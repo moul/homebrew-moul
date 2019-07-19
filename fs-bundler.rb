@@ -2,9 +2,9 @@
 class FsBundler < Formula
   desc "fs-bundler"
   homepage "https://manfred.life/"
-  url "https://github.com/moul/fs-bundler/releases/download/v1.1.0/fs-bundler_1.1.0_darwin_amd64.tar.gz"
-  version "1.1.0"
-  sha256 "957c8e4f4f0dd1cbd09396e3d3116f1a15e6ce199f123fc7d4878fa44e849588"
+  url "https://github.com/moul/fs-bundler/releases/download/v1.2.0/fs-bundler_1.2.0_darwin_amd64.tar.gz"
+  version "1.2.0"
+  sha256 "ed7c2900f1621fa4f9ca9723f3c134da0eec1f64306f13966f0e961bb3b46d5a"
 
   def install
     bin.install "fs-bundler"
