@@ -2,9 +2,9 @@
 class Pipotron < Formula
   desc "Generic (funny) text generator"
   homepage "https://manfred.life/geneator"
-  url "https://github.com/moul/pipotron/releases/download/v1.2.0/pipotron_1.2.0_darwin_amd64.tar.gz"
-  version "1.2.0"
-  sha256 "e41670fcb420431a4305331077cab85fb6bf673534c4d880e2010727037d1de4"
+  url "https://github.com/moul/pipotron/releases/download/v1.3.0/pipotron_1.3.0_darwin_amd64.tar.gz"
+  version "1.3.0"
+  sha256 "96200e90dfcc25065efaa1f438d0f47e4374b809c2745ff992c5fc5e70c1be66"
 
   def install
     bin.install "pipotron"
