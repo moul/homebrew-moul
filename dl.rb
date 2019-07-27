@@ -2,14 +2,15 @@
 class Dl < Formula
   desc "dl"
   homepage "https://manfred.life/"
-  version "1.0.0"
+  version "1.1.0"
+  bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/dl/releases/download/v1.0.0/dl_1.0.0_darwin_amd64.tar.gz"
-    sha256 "10102d4a649d8f5155ff574baa486b6f492e54e1264cbf3381d2ecc5944bb2dc"
+    url "https://github.com/moul/dl/releases/download/v1.1.0/dl_1.1.0_Darwin_x86_64.tar.gz"
+    sha256 "b7e5fe24a17885f434fff9fcb973bb87fc96f403cef9be18e36c6a3915e29f6f"
   elsif OS.linux?
-    url "https://github.com/moul/dl/releases/download/v1.0.0/dl_1.0.0_linux_amd64.tar.gz"
-    sha256 "9b8e785685657f2837c7cd003ac0233e745abb3112006fe4e1e6b31d10ece6c6"
+    url "https://github.com/moul/dl/releases/download/v1.1.0/dl_1.1.0_Linux_x86_64.tar.gz"
+    sha256 "d4d4e598e10fbf30af75f78bc88034c9fa1c90f26b4e72b3ea04f57a65a89d90"
   end
 
   def install
