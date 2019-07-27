@@ -2,14 +2,15 @@
 class GolangRepoTemplate < Formula
   desc "golang-repo-template"
   homepage "https://manfred.life/"
-  version "1.1.0"
+  version "1.2.0"
+  bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.1.0/golang-repo-template_1.1.0_darwin_amd64.tar.gz"
-    sha256 "507b55b94fc0a42a1e9bb972ca6a5b2ec3df73f7b640f1b62b759376da540992"
+    url "https://github.com/moul/golang-repo-template/releases/download/v1.2.0/golang-repo-template_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "1c9d5f6924a96f28ab053e58c44c7e8523545ee8d88118a9142b7efe9bc642bb"
   elsif OS.linux?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.1.0/golang-repo-template_1.1.0_linux_amd64.tar.gz"
-    sha256 "c87e176cbabf97550338bf2962441b4064c2c6c441907fb8113f63a5b8a46ac3"
+    url "https://github.com/moul/golang-repo-template/releases/download/v1.2.0/golang-repo-template_1.2.0_Linux_x86_64.tar.gz"
+    sha256 "47aa19d4f577a6e46acd5cf6ee6a526fbfb5a5121fb6e3e24482d14263022a6c"
   end
 
   def install
