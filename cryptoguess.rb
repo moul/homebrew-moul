@@ -2,15 +2,15 @@
 class Cryptoguess < Formula
   desc "cryptoguess"
   homepage "https://manfred.life/"
-  version "1.0.0"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/cryptoguess/releases/download/v1.0.0/cryptoguess_1.0.0_Darwin_x86_64.tar.gz"
-    sha256 "8a5f7e857a3420d234b60b0fd1f47140c28c3a8503e6d7474614e29aed1d949c"
+    url "https://github.com/moul/cryptoguess/releases/download/v1.1.0/cryptoguess_1.1.0_Darwin_x86_64.tar.gz"
+    sha256 "6c67323402a38d67b751469956b33421d9323348293482b42b33d7ed915cd10f"
   elsif OS.linux?
-    url "https://github.com/moul/cryptoguess/releases/download/v1.0.0/cryptoguess_1.0.0_Linux_x86_64.tar.gz"
-    sha256 "5e9fce76b7cb42e3d544d7ab6acbfe5cf45bc1580d4244b97bbb44b614631074"
+    url "https://github.com/moul/cryptoguess/releases/download/v1.1.0/cryptoguess_1.1.0_Linux_x86_64.tar.gz"
+    sha256 "f4cb5176afa728548800441a0ff9c703b4c9290a01b3aca3708796e51baff3d1"
   end
 
   def install
