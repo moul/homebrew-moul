@@ -6,14 +6,14 @@ class GolangRepoTemplate < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.2.0/golang-repo-template_1.2.0_Darwin_x86_64.tar.gz"
-    sha256 "1c9d5f6924a96f28ab053e58c44c7e8523545ee8d88118a9142b7efe9bc642bb"
+    url "https://github.com/moul/anonuuid/releases/download/v1.2.0/anonuuid_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "7a9d6d2a9f75ffb740ad247a97681004f0300c87600898fb5d4f14951c8665da"
   elsif OS.linux?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.2.0/golang-repo-template_1.2.0_Linux_x86_64.tar.gz"
-    sha256 "47aa19d4f577a6e46acd5cf6ee6a526fbfb5a5121fb6e3e24482d14263022a6c"
+    url "https://github.com/moul/anonuuid/releases/download/v1.2.0/anonuuid_1.2.0_Linux_x86_64.tar.gz"
+    sha256 "cdc3d04299bbc3e398d8979bd87c1383c89cc4039c91d8a1090d384703d7918a"
   end
 
   def install
-    bin.install "golang-repo-template"
+    bin.install "anonuuid"
   end
 end
