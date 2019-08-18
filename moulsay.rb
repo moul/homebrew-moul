@@ -2,15 +2,15 @@
 class Moulsay < Formula
   desc "moulsay"
   homepage "https://manfred.life/"
-  version "1.1.0"
+  version "1.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/moulsay/releases/download/v1.1.0/moulsay_1.1.0_Darwin_x86_64.tar.gz"
-    sha256 "6bbefbda8ee253f75735cd56586bb9dcd78c981978dee3cd39c9160141736164"
+    url "https://github.com/moul/moulsay/releases/download/v1.2.0/moulsay_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "89c039b862fcd07942e867fd0382f61a40bd4eb5acd70cffa00b619d20d6b55e"
   elsif OS.linux?
-    url "https://github.com/moul/moulsay/releases/download/v1.1.0/moulsay_1.1.0_Linux_x86_64.tar.gz"
-    sha256 "7505447e215991c056a7f9eb42714a8bd8869a8a83ecbd49f166347ede7969a5"
+    url "https://github.com/moul/moulsay/releases/download/v1.2.0/moulsay_1.2.0_Linux_x86_64.tar.gz"
+    sha256 "ce348ce0e70dd8de8ebd29d9460ad6d070bdbbcae78b96e773eeab2c13535410"
   end
 
   def install
