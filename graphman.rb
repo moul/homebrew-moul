@@ -2,15 +2,15 @@
 class Graphman < Formula
   desc "graph manipulation library and tool"
   homepage "https://manfred.life/"
-  version "1.2.0"
+  version "1.3.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/graphman/releases/download/v1.2.0/graphman_1.2.0_darwin_amd64.tar.gz"
-    sha256 "9949d6a8fd5f3c0ad2aa3c7a21a10e5fc5f2bff56ea0b0e968bc940f36249df3"
+    url "https://github.com/moul/graphman/releases/download/v1.3.0/graphman_1.3.0_darwin_amd64.tar.gz"
+    sha256 "aa84236ec9797aafac590b2e8ffbda44e54b6fdb334db4bed7fe2beb07229557"
   elsif OS.linux?
-    url "https://github.com/moul/graphman/releases/download/v1.2.0/graphman_1.2.0_linux_amd64.tar.gz"
-    sha256 "27e53422ee38dc82cf1032776bfe326499c882158c8716338472212a28e32e11"
+    url "https://github.com/moul/graphman/releases/download/v1.3.0/graphman_1.3.0_linux_amd64.tar.gz"
+    sha256 "ed7bc218d07b6c36b0a6da6fcfb9256a22df539a33f703afdb9f1712b5209a1d"
   end
 
   def install
