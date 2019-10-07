@@ -2,15 +2,15 @@
 class NumberToWords < Formula
   desc "number-to-words"
   homepage "https://manfred.life/"
-  version "0.4.0"
+  version "0.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/number-to-words/releases/download/v0.4.0/number-to-words_0.4.0_Darwin_x86_64.tar.gz"
-    sha256 "bd80cc0842f4c7189445a2b90150d6f67d1c42139fe2bcbe699786ba9908d98f"
+    url "https://github.com/moul/number-to-words/releases/download/v0.5.0/number-to-words_0.5.0_Darwin_x86_64.tar.gz"
+    sha256 "4f5c16af9b052e6677e3ce23859348ef6b41b712b6065a81d9ae6b838d5fb7f1"
   elsif OS.linux?
-    url "https://github.com/moul/number-to-words/releases/download/v0.4.0/number-to-words_0.4.0_Linux_x86_64.tar.gz"
-    sha256 "086123374429b245bffeeb1c3855cc109952b5e701785f7176dd603cd88b00de"
+    url "https://github.com/moul/number-to-words/releases/download/v0.5.0/number-to-words_0.5.0_Linux_x86_64.tar.gz"
+    sha256 "94dc0fa065ed10e5c4ff17335e62cd609e8474ce72ecc9446de71d702d20849b"
   end
 
   def install
