@@ -2,15 +2,15 @@
 class Depviz < Formula
   desc "Issue dependency visualizer, a.k.a. 'auto-roadmap'."
   homepage "https://manfred.life/depviz"
-  version "2.0.0"
+  version "2.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/depviz/releases/download/v2.0.0/depviz_2.0.0_darwin_amd64.tar.gz"
-    sha256 "c45cfefa0f82f5a535a8f60e2518b2c8d0b32bc0e32f5b6bf6b4d71777f2ad67"
+    url "https://github.com/moul/depviz/releases/download/v2.1.0/depviz_2.1.0_darwin_amd64.tar.gz"
+    sha256 "5970e95bbd45182d41b72424a8c7452eb39f6f47f798be1e721bb53bc8fcda97"
   elsif OS.linux?
-    url "https://github.com/moul/depviz/releases/download/v2.0.0/depviz_2.0.0_linux_amd64.tar.gz"
-    sha256 "618f0e7e444709bc44cd2fbbda56a7624b6d3d7361bdbfc1719f8f1b9e2a910a"
+    url "https://github.com/moul/depviz/releases/download/v2.1.0/depviz_2.1.0_linux_amd64.tar.gz"
+    sha256 "78551c1d194945cb0d1813f15de9e1e4cc35da881dcc9ee597f2fd88e86ab02f"
   end
 
   def install
