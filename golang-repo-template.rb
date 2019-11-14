@@ -2,18 +2,18 @@
 class GolangRepoTemplate < Formula
   desc "golang-repo-template"
   homepage "https://manfred.life/"
-  version "1.3.0"
+  version "1.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.3.0/golang-repo-template_1.3.0_Darwin_x86_64.tar.gz"
-    sha256 "24a513ce8cbba877b05483d4512330eeabb38388f373cf583c3ab3e5e7684645"
+    url "https://github.com/moul/anonuuid/releases/download/v1.2.1/anonuuid_1.2.1_Darwin_x86_64.tar.gz"
+    sha256 "71c48cdacaa394d5d0e277e4075919e4960da5252c91f8b089cb550d9ac87f93"
   elsif OS.linux?
-    url "https://github.com/moul/golang-repo-template/releases/download/v1.3.0/golang-repo-template_1.3.0_Linux_x86_64.tar.gz"
-    sha256 "83300f1f8ad6067540c1708cb5f7c7c7a1b6f7821898dcb6775f8919cc734107"
+    url "https://github.com/moul/anonuuid/releases/download/v1.2.1/anonuuid_1.2.1_Linux_x86_64.tar.gz"
+    sha256 "b9e8c828ab58cac793ff22ea5cebea3c7c9edc274d3a4ba6167663a566eef631"
   end
 
   def install
-    bin.install "golang-repo-template"
+    bin.install "anonuuid"
   end
 end
