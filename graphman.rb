@@ -3,7 +3,6 @@ class Graphman < Formula
   desc "graph manipulation library and tool"
   homepage "https://manfred.life/"
   version "1.4.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/graphman/releases/download/v1.4.0/graphman_1.4.0_darwin_amd64.tar.gz"

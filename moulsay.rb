@@ -3,7 +3,6 @@ class Moulsay < Formula
   desc "moulsay"
   homepage "https://manfred.life/"
   version "1.2.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/moulsay/releases/download/v1.2.0/moulsay_1.2.0_Darwin_x86_64.tar.gz"

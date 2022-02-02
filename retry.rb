@@ -3,7 +3,6 @@ class Retry < Formula
   desc "retry: repeat shell commands"
   homepage "https://manfred.life/"
   version "0.6.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/retry/releases/download/v0.6.0/retry_0.6.0_Darwin_x86_64.tar.gz"

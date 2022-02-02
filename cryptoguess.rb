@@ -3,7 +3,6 @@ class Cryptoguess < Formula
   desc "cryptoguess"
   homepage "https://manfred.life/"
   version "1.2.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/cryptoguess/releases/download/v1.2.0/cryptoguess_1.2.0_Darwin_x86_64.tar.gz"

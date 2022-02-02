@@ -3,7 +3,6 @@ class Depviz < Formula
   desc "Issue dependency visualizer, a.k.a. 'auto-roadmap'."
   homepage "https://manfred.life/depviz"
   version "3.1.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/depviz/releases/download/v3.1.0/depviz_3.1.0_darwin_amd64.tar.gz"

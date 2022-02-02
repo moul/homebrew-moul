@@ -3,7 +3,6 @@ class Dl < Formula
   desc "dl"
   homepage "https://manfred.life/"
   version "1.7.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/dl/releases/download/v1.7.0/dl_1.7.0_Darwin_x86_64.tar.gz"
