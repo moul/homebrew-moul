@@ -3,7 +3,6 @@ class NumberToWords < Formula
   desc "number-to-words"
   homepage "https://manfred.life/"
   version "0.5.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/number-to-words/releases/download/v0.5.0/number-to-words_0.5.0_Darwin_x86_64.tar.gz"

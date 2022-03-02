@@ -3,7 +3,6 @@ class Metronome < Formula
   desc "metronome"
   homepage "https://manfred.life/"
   version "1.0.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/moul/metronome/releases/download/v1.0.0/metronome_1.0.0_Darwin_x86_64.tar.gz"
